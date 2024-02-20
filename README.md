@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Simple TODO List 
 
-Currently, two official plugins are available:
+This program is nothing special. Just something I built while following a tutorial by @Coding in Flow (find him on YouTube) in order to fill in any React knowledge gaps I had,
+and to get used to using TypeScript in combination with React. Tailwind is also something I got more comfortable with as a result of this project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# What I learned...
 
-## Expanding the ESLint configuration
+* React
+  * Learned the concept of dealing with the component tree, and passing data up and down the tree.
+    * I made use of callbacks and passed props in order to transport data up and down the component tree.
+  * Learned how to use custom and pre-made React hooks.
+  * Practiced mapping state to component, and components based on state.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Typescript + React
+  * I learned how TypeScript interacts with React, as far as handling explicit typing and interfacing of things like props and components.
+    * Created local and global interfaces to ensure creation, and leveraging, of explicit typing.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* Tailwind (Went into the project not being a big fan of Tailwind)
+  * Setup and configured Tailwind CSS for the project.
+  * Practiced using the utility class style of Tailwind, and became much more comfortable with it a result of this project.
