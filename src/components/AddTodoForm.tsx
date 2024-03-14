@@ -4,6 +4,7 @@ interface AddTodoFormProps {
     onSubmit(title: String): void;
 }
 
+//form that allows for the creation of new todo items
 export default function AddTodoForm({onSubmit}: AddTodoFormProps) {
 
     //"controlled" input form
